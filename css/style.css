@@ -47,12 +47,21 @@ img:hover {
 }
 
 .column {
-  display: flexbox;
-  width: 100%;
-  float: center;
-  vertical-align: top;
-  image-orientation: initial;
+  width: 30%;
+  display: inline-block;
 }
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
 /* create your tile classes! we recommend .small .med .large */
+
+.small {
+  width: 100%;
+}
+
+.med {
+  width: 200%;
+}
+
+.large {
+  width: 307%;
+}
